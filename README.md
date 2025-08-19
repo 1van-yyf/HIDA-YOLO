@@ -1,4 +1,4 @@
-# HIDA-YOLO
+# High-Frequency Information Supported Domain Adaptation for Cross-Domain Object Detection(HIDA-YOLO)
 
 This repository contains the implementation of **HIDA-YOLO**, a domain adaptive object detection framework with high-frequency detail enhancement.
 
