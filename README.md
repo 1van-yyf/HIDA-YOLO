@@ -7,9 +7,10 @@ This repository contains the implementation of **HIDA-YOLO**, a domain adaptive 
 ## 🧠 Framework Overview
 
 <p align="center">
-  <img src="https://github.com/1van-yyf/HIDA-YOLO/blob/main/data/HIDA.png" width="750"/>
+  <div style="background-color:white; padding:15px; display:inline-block;">
+    <img src="https://github.com/1van-yyf/HIDA-YOLO/blob/main/data/HIDA.png" width="750"/>
+  </div>
 </p>
-
 ---
 
 ## 🔍 Internal Modules
