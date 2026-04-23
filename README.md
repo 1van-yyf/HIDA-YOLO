@@ -17,6 +17,13 @@ This repository contains the implementation of **HIDA-YOLO**, a domain adaptive 
   <img src="https://github.com/1van-yyf/HIDA-YOLO/blob/main/data/domain%20classifier.png" width="500"/>
 </p>
 
+The domain classifier in HIDA follows a standard design. It consists of four key components:
+
+- **Gradient Reversal Layer (GRL):** Applies a negative gradient (−λ) to encourage the backbone to learn domain-invariant features.  
+- **Convolutional Layers:** Two convolutional layers compress the feature channels to a single-channel representation.  
+- **Global Average Pooling (GAP):** Reduces spatial dimensions to a scalar output.  
+- **Domain Loss:** A binary cross-entropy (BCE) loss is applied on the sigmoid-activated output to measure inter-domain consistency.
+
 ### Multi-Label Classifier
 <p align="center">
   <img src="https://github.com/1van-yyf/HIDA-YOLO/blob/main/data/multi-label%20classifier.png" width="500"/>
