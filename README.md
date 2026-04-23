@@ -4,6 +4,26 @@ This repository contains the implementation of **HIDA-YOLO**, a domain adaptive 
 
 ---
 
+## 🧠 Framework Overview
+
+<p align="center">
+  <img src="https://github.com/1van-yyf/HIDA-YOLO/blob/main/data/HIDA.png" width="750"/>
+</p>
+
+---
+
+## 🔍 Internal Modules
+
+### Domain Classifier
+<p align="center">
+  <img src="https://github.com/1van-yyf/HIDA-YOLO/blob/main/data/domain%20classifier.png" width="500"/>
+</p>
+
+### Multi-Label Classifier
+<p align="center">
+  <img src="https://github.com/1van-yyf/HIDA-YOLO/blob/main/data/multi-label%20classifier.png" width="500"/>
+</p>
+
 ## 📋 Requirements
 
 Please install the required environment before running the code.  
