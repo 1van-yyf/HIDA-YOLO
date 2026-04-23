@@ -19,7 +19,7 @@ This repository contains the implementation of **HIDA-YOLO**, a domain adaptive 
 
 ### Multi-Label Classifier
 <p align="center">
-  <img src="https://github.com/1van-yyf/HIDA-YOLO/blob/main/data/multi-label%20classifier2.png" width="500"/>
+  <img src="https://github.com/1van-yyf/HIDA-YOLO/blob/main/data/multi-label%20classifier.png" width="500"/>
 </p>
 
 ## 📋 Requirements
