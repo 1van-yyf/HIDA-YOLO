@@ -29,6 +29,12 @@ The domain classifier in HIDA follows a standard design. It consists of four key
   <img src="https://github.com/1van-yyf/HIDA-YOLO/blob/main/data/multi-label%20classifier.png" width="500"/>
 </p>
 
+The multi-label classifier in HIDA consists of three key components:
+
+- **Convolutional Layers:** Two convolutional layers compress the feature channels to a $C$-dimensional representation, where $C$ denotes the number of categories.  
+- **Global Average Pooling (GAP):** Aggregates spatial features into a category-wise vector.  
+- **Multi-Label Loss:** The classifier is optimized using Asymmetric Loss (ASL), a variant of focal loss, to address label imbalance.
+
 ## 📋 Requirements
 
 Please install the required environment before running the code.  
