@@ -53,7 +53,7 @@ You need to prepare both the source and target datasets before training.
 Run the **IDR_HF_scharr.py** script to perform high-frequency detail refinement on the dataset.
 
 ## 🔧 Step 2. Traning HIDA-YOLO
-python train_HIDA_4ch_s.py
+python train_hida_4ch_v9s.py
 
 
 
