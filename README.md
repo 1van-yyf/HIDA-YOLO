@@ -52,8 +52,48 @@ You need to prepare both the source and target datasets before training.
 
 Run the **IDR_HF_scharr.py** script to perform high-frequency detail refinement on the dataset.
 
-## 🔧 Step 2. Traning HIDA-YOLO
-python train_hida_4ch_v9s.py
+## 🔧 Step 2. Training HIDA-YOLO
+
+### YOLOv9-S
+
+Before training with YOLOv9, please ensure the pretrained weights are properly prepared.
+
+Then run:
+
+```bash
+python train_hida_4ch_v9s.py \
+  --epochs 201 \
+  --device 0 \
+  --batch 16 \
+  --data xx \
+  --img 640 \
+  --cfg /models/detect/gelan-s_grl_mcls_4ch.yaml \
+  --name xx
+```
+
+---
+
+### YOLOv8
+
+Before training with YOLOv8, please download the official pretrained weights:
+
+- [YOLOv8-S](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov8s.pt)
+- [YOLOv8-M](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov8m.pt)
+
+Then run:
+
+```bash
+python train_hida_4ch_v8.py \
+  --epochs 201 \
+  --device 0 \
+  --batch 16 \
+  --data xx \
+  --img 640 \
+  --cfg /models/detect/yolov8s_hida.yaml \
+  --name xx
+```
+
+You can replace the configuration file (e.g., `yolov8m_hida.yaml`) according to the selected model scale.
 
 
 
